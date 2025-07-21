@@ -5,10 +5,11 @@ class GamePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    debugPrint("GamePage build called");
     return Scaffold(
       appBar: AppBar(title: const Text('SnakeAndLadder'), centerTitle: true),
       body: SafeArea(
-        child: Container(),
+        child: Text("테스트 텍스트"),
       ),
     );
   }
