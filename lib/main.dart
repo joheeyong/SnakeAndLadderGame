@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:snakeandladder/features/game/widgets/GamePage.dart';
 import 'package:snakeandladder/util/getItDI.dart';
 import 'features/game/bloc/game_bloc.dart';
+import 'features/game/pages/GamePage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
